@@ -1,0 +1,27 @@
+# Secrets & Credentials
+.env
+*.pem
+*.key
+*.ppk
+*credentials*
+*secret*
+.aws/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Terraform & Infrastructure State
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
