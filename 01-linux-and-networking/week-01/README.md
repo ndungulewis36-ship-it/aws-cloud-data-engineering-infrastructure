@@ -12,3 +12,11 @@
   - Root filesystem mounted on `/dev/sdd` (`954G` available).
   - Virtual interface `eth0` operating on subnet `172.27.128.0/20` via NAT gateway `172.27.128.1`.
   - All active TCP/UDP sockets (ports `53` and `323`) are bound strictly to loopback/internal interfaces with zero public exposure.
+
+## Lab 02: Filesystem Navigation & Management
+- *Lab Guide:* [labs/02-filesystem-navigation-lab.md](labs/02-filesystem-navigation-lab.md)
+- *Key Focus Areas:*
+  - Traversed the top-down Linux filesystem hierarchy starting from root (`/`).
+  - Built nested directory trees using brace expansion (`mkdir -p`).
+  - Handled file manipulation workflow (`cp`, `mv`, `cat`).
+  - Queried files and patterns using search utilities (`find`, `grep`).
