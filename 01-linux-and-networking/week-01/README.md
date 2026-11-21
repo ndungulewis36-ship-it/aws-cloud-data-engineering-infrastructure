@@ -6,7 +6,7 @@
 - Inspect system resources, virtual network interfaces, routing tables, and listening sockets.
 
 ## Lab 01: System & Network Audit
-- *Script:* [scripts/sys_audit.sh](scripts/sys_audit.sh)
+- *Script:* [scripts/01-system-audit.sh](scripts/01-system-audit.sh)
 - *Artifact:* [labs/01-system-audit-output.txt](labs/01-system-audit-output.txt)
 - *Key Findings:*
   - Root filesystem mounted on `/dev/sdd` (954G available).
@@ -14,28 +14,31 @@
   - All active TCP/UDP sockets are bound strictly to loopback/internal interfaces with zero public exposure.
 
 ## Lab 02: Filesystem Navigation & Management
-- *Lab Script:* [labs/02-filesystem-navigation-lab.sh](labs/02-filesystem-navigation-lab.sh)
+- *Guide:* [labs/02-filesystem-navigation-lab.md](labs/02-filesystem-navigation-lab.md)
+- *Script:* [scripts/02-filesystem-navigation-lab.sh](scripts/02-filesystem-navigation-lab.sh)
 - *Key Focus Areas:*
   - Traversed the top-down Linux filesystem hierarchy starting from root (`/`).
   - Built nested directory trees and evaluated disk usage (`du -sh`).
 
 ## Lab 03: Users, Groups & Permissions
 - *Notes:* [notes/05-users-and-permissions.md](notes/05-users-and-permissions.md)
-- *Lab Script:* [labs/03-users-and-permissions-lab.sh](labs/03-users-and-permissions-lab.sh)
+- *Guide:* [labs/03-users-and-permissions-lab.md](labs/03-users-and-permissions-lab.md)
+- *Script:* [scripts/03-users-and-permissions-lab.sh](scripts/03-users-and-permissions-lab.sh)
 - *Key Focus Areas:*
   - Examined system identity configurations in `/etc/passwd` and `/etc/group`.
   - Calculated and applied octal permissions (`chmod 600`) and validated execution rights.
 
 ## Lab 04: Processes, Services & System Monitoring
 - *Notes:* [notes/06-processes-and-monitoring.md](notes/06-processes-and-monitoring.md)
-- *Lab Script:* [labs/04-processes-and-monitoring-lab.sh](labs/04-processes-and-monitoring-lab.sh)
+- *Guide:* [labs/04-processes-and-monitoring-lab.md](labs/04-processes-and-monitoring-lab.md)
+- *Script:* [scripts/04-processes-and-monitoring-lab.sh](scripts/04-processes-and-monitoring-lab.sh)
 - *Key Focus Areas:*
   - Inspected PIDs and process states using `ps`, `top`, and load averages (`uptime`).
   - Audited system RAM (`free`) and disk utilization (`df`).
   - Controlled system services via `systemctl` (including OpenSSH server setup).
 
 ## Lab 05: Networking Basics & Troubleshooting
-- *Lab Script:* [labs/05-networking-lab.sh](labs/05-networking-lab.sh)
+- *Script:* [scripts/05-networking-lab.sh](scripts/05-networking-lab.sh)
 - *Key Focus Areas:*
   - Inspected network interface addresses using `ip addr`.
   - Verified active network connections and listening ports with `ss`.
