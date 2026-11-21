@@ -20,3 +20,11 @@
   - Built nested directory trees using brace expansion (`mkdir -p`).
   - Handled file manipulation workflow (`cp`, `mv`, `cat`).
   - Queried files and patterns using search utilities (`find`, `grep`).
+
+## Lab 03: Users, Groups & Permissions
+- *Notes:* [notes/05-users-and-permissions.md](notes/05-users-and-permissions.md)
+- *Lab Guide:* [labs/03-users-and-permissions-lab.md](labs/03-users-and-permissions-lab.md)
+- *Key Focus Areas:*
+  - Examined system identity configurations in `/etc/passwd` and `/etc/group`.
+  - Calculated and applied octal permissions (`chmod 600`, `755`) and symbolic modes (`u+x`).
+  - Controlled file access safety across users and groups.
