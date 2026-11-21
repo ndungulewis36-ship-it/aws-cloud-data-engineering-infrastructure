@@ -28,3 +28,11 @@
   - Examined system identity configurations in `/etc/passwd` and `/etc/group`.
   - Calculated and applied octal permissions (`chmod 600`, `755`) and symbolic modes (`u+x`).
   - Controlled file access safety across users and groups.
+
+  ## Lab 04: Processes, Services & System Monitoring
+- *Notes:* [notes/06-processes-and-monitoring.md](notes/06-processes-and-monitoring.md)
+- *Lab Guide:* [labs/04-processes-and-monitoring-lab.md](labs/04-processes-and-monitoring-lab.md)
+- *Key Focus Areas:*
+  - Inspected PIDs and process states using `ps`, `top`, and job controls.
+  - Managed background execution and process termination signals (`kill`).
+  - Audited system resources (`free`, `df`, `uptime`) and controlled services via `systemctl`.
