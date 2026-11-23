@@ -1,4 +1,4 @@
-# OverTheWire Bandit: Week 1 Assignments (Levels 0 to 8)
+# OverTheWire Bandit: Week 1 Assignments
 
 Documentation of the OverTheWire Bandit wargame assignments, covering SSH connections, Linux file navigation, permissions, searching, and text processing.
 
