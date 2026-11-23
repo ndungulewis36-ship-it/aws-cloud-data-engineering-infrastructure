@@ -57,7 +57,7 @@ Documentation of the OverTheWire Bandit wargame assignments, covering SSH connec
   find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
   cat /var/lib/dpkg/info/bandit7.password
 
-  ## Level 7 → Level 8
+## Level 7 → Level 8
 - **Level Goal:** The password for the next level is stored in the file `data.txt` next to the word `millionth`.
 - **Commands Needed:** `man`, `grep`, `sort`, `uniq`, `strings`, `base64`, `tr`, `tar`, `gzip`, `bzip2`, `xxd`
 - **Commands Used:**
