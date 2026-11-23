@@ -37,11 +37,3 @@
   - Audited system RAM (`free`) and disk utilization (`df`).
   - Controlled system services via `systemctl` (including OpenSSH server setup).
 
-## Lab 05: Networking Basics & Troubleshooting
-- *Notes:* [notes/07-networking-basics.md](notes/07-networking-basics.md)
-- *Guide:* [labs/05-networking-lab.md](labs/05-networking-lab.md)
-- *Script:* [scripts/05-networking-lab.sh](scripts/05-networking-lab.sh)
-- *Key Focus Areas:*
-  - Inspected network interface addresses using `ip addr`.
-  - Verified active network connections and listening ports with `ss`.
-  - Tested external DNS resolution and gateway connectivity (`ping`).
