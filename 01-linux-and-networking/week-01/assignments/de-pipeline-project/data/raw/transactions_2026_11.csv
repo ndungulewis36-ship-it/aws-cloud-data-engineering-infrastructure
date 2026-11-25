@@ -1,0 +1,4 @@
+tx_id,user_id,amount,currency,status
+1001,u_42,150.00,KES,completed
+1002,u_19,85.50,KES,pending
+1003,u_42,210.00,KES,failed

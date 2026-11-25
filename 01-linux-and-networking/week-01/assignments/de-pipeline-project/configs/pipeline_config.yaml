@@ -1,0 +1,4 @@
+pipeline_name: retail_etl
+raw_path: data/raw/
+processed_path: data/processed/
+batch_size: 1000
