@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="A local-first Cloud & Data Engineering learning workspace.">
+  <title>Cloud Engineering Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: {
+      colors: { ink: "#09090b", panel: "#111318", line: "#272a32", mint: "#34d399", cyanx: "#67e8f9" },
+      fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+    }}};
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/github-dark.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body class="min-h-full bg-ink text-zinc-200 antialiased">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="flex items-center gap-3 min-w-0">
+        <button id="sidebarToggle" class="icon-btn lg:hidden" aria-label="Toggle navigation">☰</button>
+        <a href="#" class="brand flex items-center gap-2" aria-label="Course home">
+          <span class="brand-mark">⌘</span><span>cloud<span class="text-emerald-400">/</span>academy</span>
+        </a>
+        <span class="hidden md:inline text-xs text-zinc-600 border-l border-zinc-800 pl-3">LOCAL LEARNING ENVIRONMENT</span>
+      </div>
+      <div class="topbar-tools">
+        <label class="search-wrap" for="searchInput">
+          <span class="text-zinc-500">⌕</span>
+          <input id="searchInput" type="search" placeholder="Search curriculum and notes..." autocomplete="off">
+          <kbd>Ctrl K</kbd>
+        </label>
+        <button id="themeHint" class="icon-btn hidden sm:inline-flex" title="Dark workspace">◐</button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <aside id="sidebar" class="sidebar">
+        <div class="sidebar-heading">
+          <div><div class="eyebrow">YOUR LEARNING PATH</div><div class="text-sm font-semibold text-zinc-100 mt-1">Curriculum</div></div>
+          <span id="weekCount" class="tiny-pill">32 WEEKS</span>
+        </div>
+        <div class="sidebar-progress">
+          <div class="flex justify-between text-xs mb-2"><span class="text-zinc-400">Course progress</span><strong id="sidebarPercent" class="text-emerald-300">0%</strong></div>
+          <div class="progress-track"><div id="sidebarProgress" class="progress-fill" style="width:0%"></div></div>
+          <div id="sidebarProgressMeta" class="text-[11px] text-zinc-600 mt-2">0 of 256 milestones completed</div>
+        </div>
+        <nav id="curriculumNav" class="curriculum-nav" aria-label="Course curriculum">
+          <div class="loading-state">Loading curriculum…</div>
+        </nav>
+        <div class="sidebar-footer">
+          <span class="status-dot"></span><span>LOCAL FILES · SAVED IN THIS BROWSER</span>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <section class="welcome-strip">
+          <div class="min-w-0">
+            <div class="eyebrow text-emerald-300">32-WEEK ENGINEERING ROADMAP</div>
+            <h1 class="text-2xl sm:text-3xl font-bold tracking-tight mt-2">Build. Practice. <span class="gradient-text">Ship.</span></h1>
+            <p class="text-sm text-zinc-400 mt-2 max-w-2xl">Your personal workspace for cloud infrastructure, data engineering, DevOps and production AI systems.</p>
+          </div>
+          <div class="welcome-chip"><span class="status-dot"></span> SELF-PACED TRACK</div>
+        </section>
+
+        <section class="overview-grid" aria-label="Learning progress overview">
+          <div class="stat-card"><div class="stat-label">OVERALL COMPLETION</div><div class="stat-value" id="overallPercent">0%</div><div class="progress-track mt-3"><div id="mainProgress" class="progress-fill" style="width:0%"></div></div></div>
+          <div class="stat-card"><div class="stat-label">MILESTONES DONE</div><div class="stat-value" id="completedCount">0 <span class="stat-muted">/ 256</span></div><div class="stat-foot">Daily work + weekly assignments</div></div>
+          <div class="stat-card"><div class="stat-label">CURRENT FOCUS</div><div class="stat-value text-lg" id="currentFocus">Week 01</div><div class="stat-foot" id="currentFocusTitle">Linux foundations</div></div>
+        </section>
+
+        <section class="content-panel">
+          <div class="content-heading">
+            <div class="min-w-0">
+              <div class="eyebrow" id="moduleEyebrow">MODULE 01</div>
+              <h2 id="weekTitle" class="text-xl sm:text-2xl font-bold text-zinc-100 mt-1">Loading week…</h2>
+              <p id="weekSummary" class="text-sm text-zinc-400 mt-2"></p>
+            </div>
+            <div class="week-selector">
+              <button id="prevWeek" class="icon-btn" aria-label="Previous week">←</button>
+              <span id="weekLabel" class="tiny-pill">WEEK 01 / 32</span>
+              <button id="nextWeek" class="icon-btn" aria-label="Next week">→</button>
+            </div>
+          </div>
+
+          <div class="week-progress-row">
+            <div class="flex justify-between text-xs"><span class="text-zinc-400">This week's progress</span><strong id="weekPercent" class="text-emerald-300">0%</strong></div>
+            <div class="progress-track mt-2"><div id="weekProgress" class="progress-fill" style="width:0%"></div></div>
+          </div>
+
+          <div class="tab-row" role="tablist" aria-label="Week resources">
+            <button class="tab-btn active" data-tab="notes" role="tab" aria-selected="true">◫ <span>Notes</span><small>.md</small></button>
+            <button class="tab-btn" data-tab="labs" role="tab" aria-selected="false">⌘ <span>Hands-on labs</span><small>.sh / .py</small></button>
+            <button class="tab-btn" data-tab="assignments" role="tab" aria-selected="false">☑ <span>Assignments</span><small>& assessments</small></button>
+          </div>
+
+          <div class="resource-layout">
+            <section class="day-list-wrap">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="text-xs font-semibold tracking-wider text-zinc-400 uppercase">Weekly schedule</h3>
+                <span class="text-[11px] text-zinc-600">7 DAYS</span>
+              </div>
+              <div id="dayList" class="day-list"></div>
+            </section>
+            <section class="resource-view">
+              <div id="resourceToolbar" class="resource-toolbar">
+                <div class="min-w-0"><div class="eyebrow" id="resourceKind">DAY 01 · NOTES</div><h3 id="resourceTitle" class="font-semibold text-zinc-100 mt-1">Select a day</h3></div>
+                <span id="resourceFile" class="file-chip">.md</span>
+              </div>
+              <div id="resourceBody" class="markdown-body">
+                <div class="empty-state"><div class="empty-icon">⌘</div><h3>Choose a learning day</h3><p>Select a day to load your local notes, lab or assignment files.</p></div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <footer class="page-footer"><span>Designed for your local Git repository.</span><span>HTML · Tailwind · Vanilla JS · Markdown</span></footer>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+</body>
+</html>

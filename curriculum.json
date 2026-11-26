@@ -1,0 +1,2003 @@
+{
+  "title": "Cloud & Data Engineering \u2014 32-Week Learning Path",
+  "version": 1,
+  "description": "A six-module, 32-week roadmap. Update the file paths as you create your learning materials.",
+  "modules": [
+    {
+      "id": "module-01",
+      "title": "Linux & Networking Foundations",
+      "startWeek": 1,
+      "endWeek": 4,
+      "description": "Linux & Networking Foundations"
+    },
+    {
+      "id": "module-02",
+      "title": "AWS Cloud Engineering",
+      "startWeek": 5,
+      "endWeek": 12,
+      "description": "AWS Cloud Engineering"
+    },
+    {
+      "id": "module-03",
+      "title": "Data Engineering Infrastructure",
+      "startWeek": 13,
+      "endWeek": 17,
+      "description": "Data Engineering Infrastructure"
+    },
+    {
+      "id": "module-04",
+      "title": "DevOps & Platform Engineering",
+      "startWeek": 18,
+      "endWeek": 23,
+      "description": "DevOps & Platform Engineering"
+    },
+    {
+      "id": "module-05",
+      "title": "MLOps & AI Infrastructure",
+      "startWeek": 24,
+      "endWeek": 28,
+      "description": "MLOps & AI Infrastructure"
+    },
+    {
+      "id": "module-06",
+      "title": "Production & Capstone",
+      "startWeek": 29,
+      "endWeek": 32,
+      "description": "Production & Capstone"
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Linux Filesystem & Command-Line Navigation",
+      "moduleId": "module-01",
+      "moduleTitle": "Linux & Networking Foundations",
+      "summary": "Week 01: Linux Filesystem & Command-Line Navigation. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./01-linux-and-networking/week-01/notes/01-linux-foundations.md",
+          "lab": "./01-linux-and-networking/week-01/scripts/01-system-audit.sh",
+          "assignment": "./01-linux-and-networking/week-01/assignments/bandit-walkthrough.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./01-linux-and-networking/week-01/notes/02-linux-distributions.md",
+          "lab": "./01-linux-and-networking/week-01/labs/02-filesystem-navigation-lab.md",
+          "assignment": "./01-linux-and-networking/week-01/assignments/week01-assignment-commands.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./01-linux-and-networking/week-01/notes/03-ubuntu.md",
+          "lab": "./01-linux-and-networking/week-01/scripts/02-filesystem-navigation-lab.sh",
+          "assignment": "./01-linux-and-networking/week-01/assignments/week01-assignment-commands.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./01-linux-and-networking/week-01/notes/04-filesystem-and-navigation.md",
+          "lab": "./01-linux-and-networking/week-01/labs/03-users-and-permissions-lab.md",
+          "assignment": "./01-linux-and-networking/week-01/assignments/week01-assignment-commands.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./01-linux-and-networking/week-01/notes/05-users-and-permissions.md",
+          "lab": "./01-linux-and-networking/week-01/scripts/03-users-and-permissions-lab.sh",
+          "assignment": "./01-linux-and-networking/week-01/assignments/week01-assignment-commands.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./01-linux-and-networking/week-01/notes/06-processes-and-monitoring.md",
+          "lab": "./01-linux-and-networking/week-01/scripts/04-processes-and-monitoring-lab.sh",
+          "assignment": "./01-linux-and-networking/week-01/assignments/week01-assignment-commands.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./01-linux-and-networking/week-01/README.md",
+          "lab": "./01-linux-and-networking/week-01/labs/04-processes-and-monitoring-lab.md",
+          "assignment": "./01-linux-and-networking/week-01/assignments/bandit-walkthrough.md"
+        }
+      ],
+      "weeklyAssignment": "./module-01/week-01/assignments/week-01-assignment.md",
+      "assessment": "./module-01/week-01/assignments/week-01-assessment.md",
+      "project": "./module-01/week-01/projects/week-01-project.md"
+    },
+    {
+      "week": 2,
+      "title": "Users, Groups, Permissions & Linux Administration",
+      "moduleId": "module-01",
+      "moduleTitle": "Linux & Networking Foundations",
+      "summary": "Week 02: Users, Groups, Permissions & Linux Administration. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./01-linux-and-networking/week-02/notes/day-01-users-and-groups.md",
+          "lab": "./01-linux-and-networking/week-02/scripts/day-01-user-audit.sh",
+          "assignment": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./01-linux-and-networking/week-02/notes/day-02-file-permissions.md",
+          "lab": "./01-linux-and-networking/week-02/scripts/day-02-perm-converter.sh",
+          "assignment": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./01-linux-and-networking/week-02/notes/day-03-ownership-and-sudo.md",
+          "lab": "./01-linux-and-networking/week-02/scripts/day-03-owner-audit.sh",
+          "assignment": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./01-linux-and-networking/week-02/notes/day-04-process-control.md",
+          "lab": "./01-linux-and-networking/week-02/scripts/day-04-proc-monitor.sh",
+          "assignment": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-01/week-02/notes/day05.md",
+          "lab": "./module-01/week-02/labs/day05.sh",
+          "assignment": "./module-01/week-02/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-01/week-02/notes/day06.md",
+          "lab": "./module-01/week-02/labs/day06.sh",
+          "assignment": "./module-01/week-02/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./01-linux-and-networking/week-02/README.md",
+          "lab": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh",
+          "assignment": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh"
+        }
+      ],
+      "weeklyAssignment": "./module-01/week-02/assignments/week-02-assignment.md",
+      "assessment": "./module-01/week-02/assignments/week-02-assessment.md",
+      "project": "./module-01/week-02/projects/week-02-project.md"
+    },
+    {
+      "week": 3,
+      "title": "Bash Scripting, Processes & Cron Automation",
+      "moduleId": "module-01",
+      "moduleTitle": "Linux & Networking Foundations",
+      "summary": "Week 03: Bash Scripting, Processes & Cron Automation. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./01-linux-and-networking/week-03/notes/day01-bash-fundamentals.md",
+          "lab": "./01-linux-and-networking/week-03/labs/day01-bash-fundamentals.sh",
+          "assignment": "./01-linux-and-networking/week-03/scripts/day01-hello-system.sh"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./01-linux-and-networking/week-03/notes/day02-variables-and-input.md",
+          "lab": "./01-linux-and-networking/week-03/labs/day02-variables-and-input.sh",
+          "assignment": "./01-linux-and-networking/week-03/scripts/day02-env-deploy.sh"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./01-linux-and-networking/week-03/notes/day03-conditional-statements.md",
+          "lab": "./01-linux-and-networking/week-03/labs/day03-conditional-practice.sh",
+          "assignment": "./01-linux-and-networking/week-03/scripts/day03-disk-health-guard.sh"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./01-linux-and-networking/week-03/notes/day04-loops-and-automation.md",
+          "lab": "./01-linux-and-networking/week-03/labs/day04-loops-practice.sh",
+          "assignment": "./01-linux-and-networking/week-03/scripts/day04-batch-log-archiver.sh"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./01-linux-and-networking/week-03/notes/day05-functions-and-error-handling.md",
+          "lab": "./01-linux-and-networking/week-03/labs/day05-functions-debugging.sh",
+          "assignment": "./01-linux-and-networking/week-03/scripts/day05-safe-etl-runner.sh"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./01-linux-and-networking/week-03/notes/day06-cron-and-scheduling.md",
+          "lab": "./01-linux-and-networking/week-03/labs/day06-cron-lab.sh",
+          "assignment": "./01-linux-and-networking/week-03/scripts/day06-scheduled-health-logger.sh"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./01-linux-and-networking/week-03/README.md",
+          "lab": "./01-linux-and-networking/week-03/scripts/day06-scheduled-health-logger.sh",
+          "assignment": "./01-linux-and-networking/week-03/README.md"
+        }
+      ],
+      "weeklyAssignment": "./module-01/week-03/assignments/week-03-assignment.md",
+      "assessment": "./module-01/week-03/assignments/week-03-assessment.md",
+      "project": "./module-01/week-03/projects/week-03-project.md"
+    },
+    {
+      "week": 4,
+      "title": "Networking Fundamentals, SSH & Firewalls",
+      "moduleId": "module-01",
+      "moduleTitle": "Linux & Networking Foundations",
+      "summary": "Week 04: Networking Fundamentals, SSH & Firewalls. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-01/week-04/notes/day01.md",
+          "lab": "./module-01/week-04/labs/day01.sh",
+          "assignment": "./module-01/week-04/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-01/week-04/notes/day02.md",
+          "lab": "./module-01/week-04/labs/day02.sh",
+          "assignment": "./module-01/week-04/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-01/week-04/notes/day03.md",
+          "lab": "./module-01/week-04/labs/day03.sh",
+          "assignment": "./module-01/week-04/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-01/week-04/notes/day04.md",
+          "lab": "./module-01/week-04/labs/day04.sh",
+          "assignment": "./module-01/week-04/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-01/week-04/notes/day05.md",
+          "lab": "./module-01/week-04/labs/day05.sh",
+          "assignment": "./module-01/week-04/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-01/week-04/notes/day06.md",
+          "lab": "./module-01/week-04/labs/day06.sh",
+          "assignment": "./module-01/week-04/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-01/week-04/notes/day07.md",
+          "lab": "./module-01/week-04/labs/day07.sh",
+          "assignment": "./module-01/week-04/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-01/week-04/assignments/week-04-assignment.md",
+      "assessment": "./module-01/week-04/assignments/week-04-assessment.md",
+      "project": "./module-01/week-04/projects/week-04-project.md"
+    },
+    {
+      "week": 5,
+      "title": "AWS Fundamentals, IAM & Shared Responsibility",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 05: AWS Fundamentals, IAM & Shared Responsibility. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-05/notes/day01.md",
+          "lab": "./module-02/week-05/labs/day01.sh",
+          "assignment": "./module-02/week-05/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-05/notes/day02.md",
+          "lab": "./module-02/week-05/labs/day02.sh",
+          "assignment": "./module-02/week-05/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-05/notes/day03.md",
+          "lab": "./module-02/week-05/labs/day03.sh",
+          "assignment": "./module-02/week-05/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-05/notes/day04.md",
+          "lab": "./module-02/week-05/labs/day04.sh",
+          "assignment": "./module-02/week-05/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-05/notes/day05.md",
+          "lab": "./module-02/week-05/labs/day05.sh",
+          "assignment": "./module-02/week-05/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-05/notes/day06.md",
+          "lab": "./module-02/week-05/labs/day06.sh",
+          "assignment": "./module-02/week-05/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-05/notes/day07.md",
+          "lab": "./module-02/week-05/labs/day07.sh",
+          "assignment": "./module-02/week-05/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-05/assignments/week-05-assignment.md",
+      "assessment": "./module-02/week-05/assignments/week-05-assessment.md",
+      "project": "./module-02/week-05/projects/week-05-project.md"
+    },
+    {
+      "week": 6,
+      "title": "Identity, Access Management & AWS CLI",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 06: Identity, Access Management & AWS CLI. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-06/notes/day01.md",
+          "lab": "./module-02/week-06/labs/day01.sh",
+          "assignment": "./module-02/week-06/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-06/notes/day02.md",
+          "lab": "./module-02/week-06/labs/day02.sh",
+          "assignment": "./module-02/week-06/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-06/notes/day03.md",
+          "lab": "./module-02/week-06/labs/day03.sh",
+          "assignment": "./module-02/week-06/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-06/notes/day04.md",
+          "lab": "./module-02/week-06/labs/day04.sh",
+          "assignment": "./module-02/week-06/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-06/notes/day05.md",
+          "lab": "./module-02/week-06/labs/day05.sh",
+          "assignment": "./module-02/week-06/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-06/notes/day06.md",
+          "lab": "./module-02/week-06/labs/day06.sh",
+          "assignment": "./module-02/week-06/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-06/notes/day07.md",
+          "lab": "./module-02/week-06/labs/day07.sh",
+          "assignment": "./module-02/week-06/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-06/assignments/week-06-assignment.md",
+      "assessment": "./module-02/week-06/assignments/week-06-assessment.md",
+      "project": "./module-02/week-06/projects/week-06-project.md"
+    },
+    {
+      "week": 7,
+      "title": "VPC Networking, Subnets, Routes & Security Groups",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 07: VPC Networking, Subnets, Routes & Security Groups. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-07/notes/day01.md",
+          "lab": "./module-02/week-07/labs/day01.sh",
+          "assignment": "./module-02/week-07/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-07/notes/day02.md",
+          "lab": "./module-02/week-07/labs/day02.sh",
+          "assignment": "./module-02/week-07/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-07/notes/day03.md",
+          "lab": "./module-02/week-07/labs/day03.sh",
+          "assignment": "./module-02/week-07/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-07/notes/day04.md",
+          "lab": "./module-02/week-07/labs/day04.sh",
+          "assignment": "./module-02/week-07/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-07/notes/day05.md",
+          "lab": "./module-02/week-07/labs/day05.sh",
+          "assignment": "./module-02/week-07/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-07/notes/day06.md",
+          "lab": "./module-02/week-07/labs/day06.sh",
+          "assignment": "./module-02/week-07/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-07/notes/day07.md",
+          "lab": "./module-02/week-07/labs/day07.sh",
+          "assignment": "./module-02/week-07/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-07/assignments/week-07-assignment.md",
+      "assessment": "./module-02/week-07/assignments/week-07-assessment.md",
+      "project": "./module-02/week-07/projects/week-07-project.md"
+    },
+    {
+      "week": 8,
+      "title": "EC2, EBS, AMIs & Compute Operations",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 08: EC2, EBS, AMIs & Compute Operations. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-08/notes/day01.md",
+          "lab": "./module-02/week-08/labs/day01.sh",
+          "assignment": "./module-02/week-08/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-08/notes/day02.md",
+          "lab": "./module-02/week-08/labs/day02.sh",
+          "assignment": "./module-02/week-08/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-08/notes/day03.md",
+          "lab": "./module-02/week-08/labs/day03.sh",
+          "assignment": "./module-02/week-08/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-08/notes/day04.md",
+          "lab": "./module-02/week-08/labs/day04.sh",
+          "assignment": "./module-02/week-08/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-08/notes/day05.md",
+          "lab": "./module-02/week-08/labs/day05.sh",
+          "assignment": "./module-02/week-08/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-08/notes/day06.md",
+          "lab": "./module-02/week-08/labs/day06.sh",
+          "assignment": "./module-02/week-08/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-08/notes/day07.md",
+          "lab": "./module-02/week-08/labs/day07.sh",
+          "assignment": "./module-02/week-08/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-08/assignments/week-08-assignment.md",
+      "assessment": "./module-02/week-08/assignments/week-08-assessment.md",
+      "project": "./module-02/week-08/projects/week-08-project.md"
+    },
+    {
+      "week": 9,
+      "title": "S3 Storage, Lifecycle Policies & Data Protection",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 09: S3 Storage, Lifecycle Policies & Data Protection. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-09/notes/day01.md",
+          "lab": "./module-02/week-09/labs/day01.sh",
+          "assignment": "./module-02/week-09/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-09/notes/day02.md",
+          "lab": "./module-02/week-09/labs/day02.sh",
+          "assignment": "./module-02/week-09/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-09/notes/day03.md",
+          "lab": "./module-02/week-09/labs/day03.sh",
+          "assignment": "./module-02/week-09/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-09/notes/day04.md",
+          "lab": "./module-02/week-09/labs/day04.sh",
+          "assignment": "./module-02/week-09/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-09/notes/day05.md",
+          "lab": "./module-02/week-09/labs/day05.sh",
+          "assignment": "./module-02/week-09/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-09/notes/day06.md",
+          "lab": "./module-02/week-09/labs/day06.sh",
+          "assignment": "./module-02/week-09/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-09/notes/day07.md",
+          "lab": "./module-02/week-09/labs/day07.sh",
+          "assignment": "./module-02/week-09/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-09/assignments/week-09-assignment.md",
+      "assessment": "./module-02/week-09/assignments/week-09-assessment.md",
+      "project": "./module-02/week-09/projects/week-09-project.md"
+    },
+    {
+      "week": 10,
+      "title": "Serverless Computing with Lambda & EventBridge",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 10: Serverless Computing with Lambda & EventBridge. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-10/notes/day01.md",
+          "lab": "./module-02/week-10/labs/day01.sh",
+          "assignment": "./module-02/week-10/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-10/notes/day02.md",
+          "lab": "./module-02/week-10/labs/day02.sh",
+          "assignment": "./module-02/week-10/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-10/notes/day03.md",
+          "lab": "./module-02/week-10/labs/day03.sh",
+          "assignment": "./module-02/week-10/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-10/notes/day04.md",
+          "lab": "./module-02/week-10/labs/day04.sh",
+          "assignment": "./module-02/week-10/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-10/notes/day05.md",
+          "lab": "./module-02/week-10/labs/day05.sh",
+          "assignment": "./module-02/week-10/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-10/notes/day06.md",
+          "lab": "./module-02/week-10/labs/day06.sh",
+          "assignment": "./module-02/week-10/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-10/notes/day07.md",
+          "lab": "./module-02/week-10/labs/day07.sh",
+          "assignment": "./module-02/week-10/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-10/assignments/week-10-assignment.md",
+      "assessment": "./module-02/week-10/assignments/week-10-assessment.md",
+      "project": "./module-02/week-10/projects/week-10-project.md"
+    },
+    {
+      "week": 11,
+      "title": "AWS Databases: RDS, DynamoDB & Caching",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 11: AWS Databases: RDS, DynamoDB & Caching. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-11/notes/day01.md",
+          "lab": "./module-02/week-11/labs/day01.sh",
+          "assignment": "./module-02/week-11/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-11/notes/day02.md",
+          "lab": "./module-02/week-11/labs/day02.sh",
+          "assignment": "./module-02/week-11/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-11/notes/day03.md",
+          "lab": "./module-02/week-11/labs/day03.sh",
+          "assignment": "./module-02/week-11/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-11/notes/day04.md",
+          "lab": "./module-02/week-11/labs/day04.sh",
+          "assignment": "./module-02/week-11/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-11/notes/day05.md",
+          "lab": "./module-02/week-11/labs/day05.sh",
+          "assignment": "./module-02/week-11/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-11/notes/day06.md",
+          "lab": "./module-02/week-11/labs/day06.sh",
+          "assignment": "./module-02/week-11/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-11/notes/day07.md",
+          "lab": "./module-02/week-11/labs/day07.sh",
+          "assignment": "./module-02/week-11/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-11/assignments/week-11-assignment.md",
+      "assessment": "./module-02/week-11/assignments/week-11-assessment.md",
+      "project": "./module-02/week-11/projects/week-11-project.md"
+    },
+    {
+      "week": 12,
+      "title": "Cloud Monitoring, Security, Cost & Module Project",
+      "moduleId": "module-02",
+      "moduleTitle": "AWS Cloud Engineering",
+      "summary": "Week 12: Cloud Monitoring, Security, Cost & Module Project. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-02/week-12/notes/day01.md",
+          "lab": "./module-02/week-12/labs/day01.sh",
+          "assignment": "./module-02/week-12/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-02/week-12/notes/day02.md",
+          "lab": "./module-02/week-12/labs/day02.sh",
+          "assignment": "./module-02/week-12/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-02/week-12/notes/day03.md",
+          "lab": "./module-02/week-12/labs/day03.sh",
+          "assignment": "./module-02/week-12/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-02/week-12/notes/day04.md",
+          "lab": "./module-02/week-12/labs/day04.sh",
+          "assignment": "./module-02/week-12/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-02/week-12/notes/day05.md",
+          "lab": "./module-02/week-12/labs/day05.sh",
+          "assignment": "./module-02/week-12/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-02/week-12/notes/day06.md",
+          "lab": "./module-02/week-12/labs/day06.sh",
+          "assignment": "./module-02/week-12/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-02/week-12/notes/day07.md",
+          "lab": "./module-02/week-12/labs/day07.sh",
+          "assignment": "./module-02/week-12/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-02/week-12/assignments/week-12-assignment.md",
+      "assessment": "./module-02/week-12/assignments/week-12-assessment.md",
+      "project": "./module-02/week-12/projects/week-12-project.md"
+    },
+    {
+      "week": 13,
+      "title": "Python for Data Engineering",
+      "moduleId": "module-03",
+      "moduleTitle": "Data Engineering Infrastructure",
+      "summary": "Week 13: Python for Data Engineering. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-03/week-13/notes/day01.md",
+          "lab": "./module-03/week-13/labs/day01.sh",
+          "assignment": "./module-03/week-13/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-03/week-13/notes/day02.md",
+          "lab": "./module-03/week-13/labs/day02.sh",
+          "assignment": "./module-03/week-13/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-03/week-13/notes/day03.md",
+          "lab": "./module-03/week-13/labs/day03.sh",
+          "assignment": "./module-03/week-13/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-03/week-13/notes/day04.md",
+          "lab": "./module-03/week-13/labs/day04.sh",
+          "assignment": "./module-03/week-13/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-03/week-13/notes/day05.md",
+          "lab": "./module-03/week-13/labs/day05.sh",
+          "assignment": "./module-03/week-13/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-03/week-13/notes/day06.md",
+          "lab": "./module-03/week-13/labs/day06.sh",
+          "assignment": "./module-03/week-13/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-03/week-13/notes/day07.md",
+          "lab": "./module-03/week-13/labs/day07.sh",
+          "assignment": "./module-03/week-13/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-03/week-13/assignments/week-13-assignment.md",
+      "assessment": "./module-03/week-13/assignments/week-13-assessment.md",
+      "project": "./module-03/week-13/projects/week-13-project.md"
+    },
+    {
+      "week": 14,
+      "title": "Advanced Python, APIs & Data Formats",
+      "moduleId": "module-03",
+      "moduleTitle": "Data Engineering Infrastructure",
+      "summary": "Week 14: Advanced Python, APIs & Data Formats. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-03/week-14/notes/day01.md",
+          "lab": "./module-03/week-14/labs/day01.sh",
+          "assignment": "./module-03/week-14/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-03/week-14/notes/day02.md",
+          "lab": "./module-03/week-14/labs/day02.sh",
+          "assignment": "./module-03/week-14/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-03/week-14/notes/day03.md",
+          "lab": "./module-03/week-14/labs/day03.sh",
+          "assignment": "./module-03/week-14/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-03/week-14/notes/day04.md",
+          "lab": "./module-03/week-14/labs/day04.sh",
+          "assignment": "./module-03/week-14/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-03/week-14/notes/day05.md",
+          "lab": "./module-03/week-14/labs/day05.sh",
+          "assignment": "./module-03/week-14/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-03/week-14/notes/day06.md",
+          "lab": "./module-03/week-14/labs/day06.sh",
+          "assignment": "./module-03/week-14/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-03/week-14/notes/day07.md",
+          "lab": "./module-03/week-14/labs/day07.sh",
+          "assignment": "./module-03/week-14/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-03/week-14/assignments/week-14-assignment.md",
+      "assessment": "./module-03/week-14/assignments/week-14-assessment.md",
+      "project": "./module-03/week-14/projects/week-14-project.md"
+    },
+    {
+      "week": 15,
+      "title": "SQL, Relational Databases & Query Optimization",
+      "moduleId": "module-03",
+      "moduleTitle": "Data Engineering Infrastructure",
+      "summary": "Week 15: SQL, Relational Databases & Query Optimization. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-03/week-15/notes/day01.md",
+          "lab": "./module-03/week-15/labs/day01.sh",
+          "assignment": "./module-03/week-15/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-03/week-15/notes/day02.md",
+          "lab": "./module-03/week-15/labs/day02.sh",
+          "assignment": "./module-03/week-15/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-03/week-15/notes/day03.md",
+          "lab": "./module-03/week-15/labs/day03.sh",
+          "assignment": "./module-03/week-15/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-03/week-15/notes/day04.md",
+          "lab": "./module-03/week-15/labs/day04.sh",
+          "assignment": "./module-03/week-15/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-03/week-15/notes/day05.md",
+          "lab": "./module-03/week-15/labs/day05.sh",
+          "assignment": "./module-03/week-15/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-03/week-15/notes/day06.md",
+          "lab": "./module-03/week-15/labs/day06.sh",
+          "assignment": "./module-03/week-15/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-03/week-15/notes/day07.md",
+          "lab": "./module-03/week-15/labs/day07.sh",
+          "assignment": "./module-03/week-15/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-03/week-15/assignments/week-15-assignment.md",
+      "assessment": "./module-03/week-15/assignments/week-15-assessment.md",
+      "project": "./module-03/week-15/projects/week-15-project.md"
+    },
+    {
+      "week": 16,
+      "title": "Data Modeling, Warehousing & Lakehouse Concepts",
+      "moduleId": "module-03",
+      "moduleTitle": "Data Engineering Infrastructure",
+      "summary": "Week 16: Data Modeling, Warehousing & Lakehouse Concepts. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-03/week-16/notes/day01.md",
+          "lab": "./module-03/week-16/labs/day01.sh",
+          "assignment": "./module-03/week-16/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-03/week-16/notes/day02.md",
+          "lab": "./module-03/week-16/labs/day02.sh",
+          "assignment": "./module-03/week-16/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-03/week-16/notes/day03.md",
+          "lab": "./module-03/week-16/labs/day03.sh",
+          "assignment": "./module-03/week-16/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-03/week-16/notes/day04.md",
+          "lab": "./module-03/week-16/labs/day04.sh",
+          "assignment": "./module-03/week-16/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-03/week-16/notes/day05.md",
+          "lab": "./module-03/week-16/labs/day05.sh",
+          "assignment": "./module-03/week-16/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-03/week-16/notes/day06.md",
+          "lab": "./module-03/week-16/labs/day06.sh",
+          "assignment": "./module-03/week-16/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-03/week-16/notes/day07.md",
+          "lab": "./module-03/week-16/labs/day07.sh",
+          "assignment": "./module-03/week-16/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-03/week-16/assignments/week-16-assignment.md",
+      "assessment": "./module-03/week-16/assignments/week-16-assessment.md",
+      "project": "./module-03/week-16/projects/week-16-project.md"
+    },
+    {
+      "week": 17,
+      "title": "ETL/ELT Pipelines, Glue, PySpark & Athena",
+      "moduleId": "module-03",
+      "moduleTitle": "Data Engineering Infrastructure",
+      "summary": "Week 17: ETL/ELT Pipelines, Glue, PySpark & Athena. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-03/week-17/notes/day01.md",
+          "lab": "./module-03/week-17/labs/day01.sh",
+          "assignment": "./module-03/week-17/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-03/week-17/notes/day02.md",
+          "lab": "./module-03/week-17/labs/day02.sh",
+          "assignment": "./module-03/week-17/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-03/week-17/notes/day03.md",
+          "lab": "./module-03/week-17/labs/day03.sh",
+          "assignment": "./module-03/week-17/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-03/week-17/notes/day04.md",
+          "lab": "./module-03/week-17/labs/day04.sh",
+          "assignment": "./module-03/week-17/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-03/week-17/notes/day05.md",
+          "lab": "./module-03/week-17/labs/day05.sh",
+          "assignment": "./module-03/week-17/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-03/week-17/notes/day06.md",
+          "lab": "./module-03/week-17/labs/day06.sh",
+          "assignment": "./module-03/week-17/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-03/week-17/notes/day07.md",
+          "lab": "./module-03/week-17/labs/day07.sh",
+          "assignment": "./module-03/week-17/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-03/week-17/assignments/week-17-assignment.md",
+      "assessment": "./module-03/week-17/assignments/week-17-assessment.md",
+      "project": "./module-03/week-17/projects/week-17-project.md"
+    },
+    {
+      "week": 18,
+      "title": "Git, GitHub & Collaborative Engineering",
+      "moduleId": "module-04",
+      "moduleTitle": "DevOps & Platform Engineering",
+      "summary": "Week 18: Git, GitHub & Collaborative Engineering. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-04/week-18/notes/day01.md",
+          "lab": "./module-04/week-18/labs/day01.sh",
+          "assignment": "./module-04/week-18/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-04/week-18/notes/day02.md",
+          "lab": "./module-04/week-18/labs/day02.sh",
+          "assignment": "./module-04/week-18/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-04/week-18/notes/day03.md",
+          "lab": "./module-04/week-18/labs/day03.sh",
+          "assignment": "./module-04/week-18/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-04/week-18/notes/day04.md",
+          "lab": "./module-04/week-18/labs/day04.sh",
+          "assignment": "./module-04/week-18/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-04/week-18/notes/day05.md",
+          "lab": "./module-04/week-18/labs/day05.sh",
+          "assignment": "./module-04/week-18/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-04/week-18/notes/day06.md",
+          "lab": "./module-04/week-18/labs/day06.sh",
+          "assignment": "./module-04/week-18/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-04/week-18/notes/day07.md",
+          "lab": "./module-04/week-18/labs/day07.sh",
+          "assignment": "./module-04/week-18/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-04/week-18/assignments/week-18-assignment.md",
+      "assessment": "./module-04/week-18/assignments/week-18-assessment.md",
+      "project": "./module-04/week-18/projects/week-18-project.md"
+    },
+    {
+      "week": 19,
+      "title": "Linux Services, Networking & Production Operations",
+      "moduleId": "module-04",
+      "moduleTitle": "DevOps & Platform Engineering",
+      "summary": "Week 19: Linux Services, Networking & Production Operations. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-04/week-19/notes/day01.md",
+          "lab": "./module-04/week-19/labs/day01.sh",
+          "assignment": "./module-04/week-19/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-04/week-19/notes/day02.md",
+          "lab": "./module-04/week-19/labs/day02.sh",
+          "assignment": "./module-04/week-19/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-04/week-19/notes/day03.md",
+          "lab": "./module-04/week-19/labs/day03.sh",
+          "assignment": "./module-04/week-19/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-04/week-19/notes/day04.md",
+          "lab": "./module-04/week-19/labs/day04.sh",
+          "assignment": "./module-04/week-19/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-04/week-19/notes/day05.md",
+          "lab": "./module-04/week-19/labs/day05.sh",
+          "assignment": "./module-04/week-19/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-04/week-19/notes/day06.md",
+          "lab": "./module-04/week-19/labs/day06.sh",
+          "assignment": "./module-04/week-19/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-04/week-19/notes/day07.md",
+          "lab": "./module-04/week-19/labs/day07.sh",
+          "assignment": "./module-04/week-19/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-04/week-19/assignments/week-19-assignment.md",
+      "assessment": "./module-04/week-19/assignments/week-19-assessment.md",
+      "project": "./module-04/week-19/projects/week-19-project.md"
+    },
+    {
+      "week": 20,
+      "title": "Docker, Images, Containers & Compose",
+      "moduleId": "module-04",
+      "moduleTitle": "DevOps & Platform Engineering",
+      "summary": "Week 20: Docker, Images, Containers & Compose. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-04/week-20/notes/day01.md",
+          "lab": "./module-04/week-20/labs/day01.sh",
+          "assignment": "./module-04/week-20/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-04/week-20/notes/day02.md",
+          "lab": "./module-04/week-20/labs/day02.sh",
+          "assignment": "./module-04/week-20/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-04/week-20/notes/day03.md",
+          "lab": "./module-04/week-20/labs/day03.sh",
+          "assignment": "./module-04/week-20/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-04/week-20/notes/day04.md",
+          "lab": "./module-04/week-20/labs/day04.sh",
+          "assignment": "./module-04/week-20/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-04/week-20/notes/day05.md",
+          "lab": "./module-04/week-20/labs/day05.sh",
+          "assignment": "./module-04/week-20/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-04/week-20/notes/day06.md",
+          "lab": "./module-04/week-20/labs/day06.sh",
+          "assignment": "./module-04/week-20/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-04/week-20/notes/day07.md",
+          "lab": "./module-04/week-20/labs/day07.sh",
+          "assignment": "./module-04/week-20/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-04/week-20/assignments/week-20-assignment.md",
+      "assessment": "./module-04/week-20/assignments/week-20-assessment.md",
+      "project": "./module-04/week-20/projects/week-20-project.md"
+    },
+    {
+      "week": 21,
+      "title": "Infrastructure as Code with Terraform",
+      "moduleId": "module-04",
+      "moduleTitle": "DevOps & Platform Engineering",
+      "summary": "Week 21: Infrastructure as Code with Terraform. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-04/week-21/notes/day01.md",
+          "lab": "./module-04/week-21/labs/day01.sh",
+          "assignment": "./module-04/week-21/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-04/week-21/notes/day02.md",
+          "lab": "./module-04/week-21/labs/day02.sh",
+          "assignment": "./module-04/week-21/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-04/week-21/notes/day03.md",
+          "lab": "./module-04/week-21/labs/day03.sh",
+          "assignment": "./module-04/week-21/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-04/week-21/notes/day04.md",
+          "lab": "./module-04/week-21/labs/day04.sh",
+          "assignment": "./module-04/week-21/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-04/week-21/notes/day05.md",
+          "lab": "./module-04/week-21/labs/day05.sh",
+          "assignment": "./module-04/week-21/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-04/week-21/notes/day06.md",
+          "lab": "./module-04/week-21/labs/day06.sh",
+          "assignment": "./module-04/week-21/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-04/week-21/notes/day07.md",
+          "lab": "./module-04/week-21/labs/day07.sh",
+          "assignment": "./module-04/week-21/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-04/week-21/assignments/week-21-assignment.md",
+      "assessment": "./module-04/week-21/assignments/week-21-assessment.md",
+      "project": "./module-04/week-21/projects/week-21-project.md"
+    },
+    {
+      "week": 22,
+      "title": "CI/CD Pipelines with GitHub Actions",
+      "moduleId": "module-04",
+      "moduleTitle": "DevOps & Platform Engineering",
+      "summary": "Week 22: CI/CD Pipelines with GitHub Actions. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-04/week-22/notes/day01.md",
+          "lab": "./module-04/week-22/labs/day01.sh",
+          "assignment": "./module-04/week-22/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-04/week-22/notes/day02.md",
+          "lab": "./module-04/week-22/labs/day02.sh",
+          "assignment": "./module-04/week-22/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-04/week-22/notes/day03.md",
+          "lab": "./module-04/week-22/labs/day03.sh",
+          "assignment": "./module-04/week-22/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-04/week-22/notes/day04.md",
+          "lab": "./module-04/week-22/labs/day04.sh",
+          "assignment": "./module-04/week-22/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-04/week-22/notes/day05.md",
+          "lab": "./module-04/week-22/labs/day05.sh",
+          "assignment": "./module-04/week-22/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-04/week-22/notes/day06.md",
+          "lab": "./module-04/week-22/labs/day06.sh",
+          "assignment": "./module-04/week-22/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-04/week-22/notes/day07.md",
+          "lab": "./module-04/week-22/labs/day07.sh",
+          "assignment": "./module-04/week-22/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-04/week-22/assignments/week-22-assignment.md",
+      "assessment": "./module-04/week-22/assignments/week-22-assessment.md",
+      "project": "./module-04/week-22/projects/week-22-project.md"
+    },
+    {
+      "week": 23,
+      "title": "Kubernetes Foundations, Deployment & Observability",
+      "moduleId": "module-04",
+      "moduleTitle": "DevOps & Platform Engineering",
+      "summary": "Week 23: Kubernetes Foundations, Deployment & Observability. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-04/week-23/notes/day01.md",
+          "lab": "./module-04/week-23/labs/day01.sh",
+          "assignment": "./module-04/week-23/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-04/week-23/notes/day02.md",
+          "lab": "./module-04/week-23/labs/day02.sh",
+          "assignment": "./module-04/week-23/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-04/week-23/notes/day03.md",
+          "lab": "./module-04/week-23/labs/day03.sh",
+          "assignment": "./module-04/week-23/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-04/week-23/notes/day04.md",
+          "lab": "./module-04/week-23/labs/day04.sh",
+          "assignment": "./module-04/week-23/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-04/week-23/notes/day05.md",
+          "lab": "./module-04/week-23/labs/day05.sh",
+          "assignment": "./module-04/week-23/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-04/week-23/notes/day06.md",
+          "lab": "./module-04/week-23/labs/day06.sh",
+          "assignment": "./module-04/week-23/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-04/week-23/notes/day07.md",
+          "lab": "./module-04/week-23/labs/day07.sh",
+          "assignment": "./module-04/week-23/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-04/week-23/assignments/week-23-assignment.md",
+      "assessment": "./module-04/week-23/assignments/week-23-assessment.md",
+      "project": "./module-04/week-23/projects/week-23-project.md"
+    },
+    {
+      "week": 24,
+      "title": "Machine Learning Engineering Foundations",
+      "moduleId": "module-05",
+      "moduleTitle": "MLOps & AI Infrastructure",
+      "summary": "Week 24: Machine Learning Engineering Foundations. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-05/week-24/notes/day01.md",
+          "lab": "./module-05/week-24/labs/day01.sh",
+          "assignment": "./module-05/week-24/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-05/week-24/notes/day02.md",
+          "lab": "./module-05/week-24/labs/day02.sh",
+          "assignment": "./module-05/week-24/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-05/week-24/notes/day03.md",
+          "lab": "./module-05/week-24/labs/day03.sh",
+          "assignment": "./module-05/week-24/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-05/week-24/notes/day04.md",
+          "lab": "./module-05/week-24/labs/day04.sh",
+          "assignment": "./module-05/week-24/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-05/week-24/notes/day05.md",
+          "lab": "./module-05/week-24/labs/day05.sh",
+          "assignment": "./module-05/week-24/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-05/week-24/notes/day06.md",
+          "lab": "./module-05/week-24/labs/day06.sh",
+          "assignment": "./module-05/week-24/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-05/week-24/notes/day07.md",
+          "lab": "./module-05/week-24/labs/day07.sh",
+          "assignment": "./module-05/week-24/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-05/week-24/assignments/week-24-assignment.md",
+      "assessment": "./module-05/week-24/assignments/week-24-assessment.md",
+      "project": "./module-05/week-24/projects/week-24-project.md"
+    },
+    {
+      "week": 25,
+      "title": "Model Training, Evaluation & Experiment Tracking",
+      "moduleId": "module-05",
+      "moduleTitle": "MLOps & AI Infrastructure",
+      "summary": "Week 25: Model Training, Evaluation & Experiment Tracking. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-05/week-25/notes/day01.md",
+          "lab": "./module-05/week-25/labs/day01.sh",
+          "assignment": "./module-05/week-25/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-05/week-25/notes/day02.md",
+          "lab": "./module-05/week-25/labs/day02.sh",
+          "assignment": "./module-05/week-25/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-05/week-25/notes/day03.md",
+          "lab": "./module-05/week-25/labs/day03.sh",
+          "assignment": "./module-05/week-25/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-05/week-25/notes/day04.md",
+          "lab": "./module-05/week-25/labs/day04.sh",
+          "assignment": "./module-05/week-25/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-05/week-25/notes/day05.md",
+          "lab": "./module-05/week-25/labs/day05.sh",
+          "assignment": "./module-05/week-25/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-05/week-25/notes/day06.md",
+          "lab": "./module-05/week-25/labs/day06.sh",
+          "assignment": "./module-05/week-25/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-05/week-25/notes/day07.md",
+          "lab": "./module-05/week-25/labs/day07.sh",
+          "assignment": "./module-05/week-25/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-05/week-25/assignments/week-25-assignment.md",
+      "assessment": "./module-05/week-25/assignments/week-25-assessment.md",
+      "project": "./module-05/week-25/projects/week-25-project.md"
+    },
+    {
+      "week": 26,
+      "title": "MLflow, Model Registry & Deployment",
+      "moduleId": "module-05",
+      "moduleTitle": "MLOps & AI Infrastructure",
+      "summary": "Week 26: MLflow, Model Registry & Deployment. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-05/week-26/notes/day01.md",
+          "lab": "./module-05/week-26/labs/day01.sh",
+          "assignment": "./module-05/week-26/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-05/week-26/notes/day02.md",
+          "lab": "./module-05/week-26/labs/day02.sh",
+          "assignment": "./module-05/week-26/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-05/week-26/notes/day03.md",
+          "lab": "./module-05/week-26/labs/day03.sh",
+          "assignment": "./module-05/week-26/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-05/week-26/notes/day04.md",
+          "lab": "./module-05/week-26/labs/day04.sh",
+          "assignment": "./module-05/week-26/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-05/week-26/notes/day05.md",
+          "lab": "./module-05/week-26/labs/day05.sh",
+          "assignment": "./module-05/week-26/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-05/week-26/notes/day06.md",
+          "lab": "./module-05/week-26/labs/day06.sh",
+          "assignment": "./module-05/week-26/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-05/week-26/notes/day07.md",
+          "lab": "./module-05/week-26/labs/day07.sh",
+          "assignment": "./module-05/week-26/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-05/week-26/assignments/week-26-assignment.md",
+      "assessment": "./module-05/week-26/assignments/week-26-assessment.md",
+      "project": "./module-05/week-26/projects/week-26-project.md"
+    },
+    {
+      "week": 27,
+      "title": "MLOps Pipelines, Monitoring & Model Lifecycle",
+      "moduleId": "module-05",
+      "moduleTitle": "MLOps & AI Infrastructure",
+      "summary": "Week 27: MLOps Pipelines, Monitoring & Model Lifecycle. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-05/week-27/notes/day01.md",
+          "lab": "./module-05/week-27/labs/day01.sh",
+          "assignment": "./module-05/week-27/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-05/week-27/notes/day02.md",
+          "lab": "./module-05/week-27/labs/day02.sh",
+          "assignment": "./module-05/week-27/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-05/week-27/notes/day03.md",
+          "lab": "./module-05/week-27/labs/day03.sh",
+          "assignment": "./module-05/week-27/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-05/week-27/notes/day04.md",
+          "lab": "./module-05/week-27/labs/day04.sh",
+          "assignment": "./module-05/week-27/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-05/week-27/notes/day05.md",
+          "lab": "./module-05/week-27/labs/day05.sh",
+          "assignment": "./module-05/week-27/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-05/week-27/notes/day06.md",
+          "lab": "./module-05/week-27/labs/day06.sh",
+          "assignment": "./module-05/week-27/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-05/week-27/notes/day07.md",
+          "lab": "./module-05/week-27/labs/day07.sh",
+          "assignment": "./module-05/week-27/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-05/week-27/assignments/week-27-assignment.md",
+      "assessment": "./module-05/week-27/assignments/week-27-assessment.md",
+      "project": "./module-05/week-27/projects/week-27-project.md"
+    },
+    {
+      "week": 28,
+      "title": "AI Infrastructure, Vector Databases & RAG",
+      "moduleId": "module-05",
+      "moduleTitle": "MLOps & AI Infrastructure",
+      "summary": "Week 28: AI Infrastructure, Vector Databases & RAG. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-05/week-28/notes/day01.md",
+          "lab": "./module-05/week-28/labs/day01.sh",
+          "assignment": "./module-05/week-28/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-05/week-28/notes/day02.md",
+          "lab": "./module-05/week-28/labs/day02.sh",
+          "assignment": "./module-05/week-28/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-05/week-28/notes/day03.md",
+          "lab": "./module-05/week-28/labs/day03.sh",
+          "assignment": "./module-05/week-28/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-05/week-28/notes/day04.md",
+          "lab": "./module-05/week-28/labs/day04.sh",
+          "assignment": "./module-05/week-28/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-05/week-28/notes/day05.md",
+          "lab": "./module-05/week-28/labs/day05.sh",
+          "assignment": "./module-05/week-28/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-05/week-28/notes/day06.md",
+          "lab": "./module-05/week-28/labs/day06.sh",
+          "assignment": "./module-05/week-28/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-05/week-28/notes/day07.md",
+          "lab": "./module-05/week-28/labs/day07.sh",
+          "assignment": "./module-05/week-28/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-05/week-28/assignments/week-28-assignment.md",
+      "assessment": "./module-05/week-28/assignments/week-28-assessment.md",
+      "project": "./module-05/week-28/projects/week-28-project.md"
+    },
+    {
+      "week": 29,
+      "title": "Production Data Platforms & Architecture",
+      "moduleId": "module-06",
+      "moduleTitle": "Production & Capstone",
+      "summary": "Week 29: Production Data Platforms & Architecture. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-06/week-29/notes/day01.md",
+          "lab": "./module-06/week-29/labs/day01.sh",
+          "assignment": "./module-06/week-29/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-06/week-29/notes/day02.md",
+          "lab": "./module-06/week-29/labs/day02.sh",
+          "assignment": "./module-06/week-29/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-06/week-29/notes/day03.md",
+          "lab": "./module-06/week-29/labs/day03.sh",
+          "assignment": "./module-06/week-29/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-06/week-29/notes/day04.md",
+          "lab": "./module-06/week-29/labs/day04.sh",
+          "assignment": "./module-06/week-29/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-06/week-29/notes/day05.md",
+          "lab": "./module-06/week-29/labs/day05.sh",
+          "assignment": "./module-06/week-29/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-06/week-29/notes/day06.md",
+          "lab": "./module-06/week-29/labs/day06.sh",
+          "assignment": "./module-06/week-29/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-06/week-29/notes/day07.md",
+          "lab": "./module-06/week-29/labs/day07.sh",
+          "assignment": "./module-06/week-29/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-06/week-29/assignments/week-29-assignment.md",
+      "assessment": "./module-06/week-29/assignments/week-29-assessment.md",
+      "project": "./module-06/week-29/projects/week-29-project.md"
+    },
+    {
+      "week": 30,
+      "title": "Security, Reliability, Monitoring & Cost Optimization",
+      "moduleId": "module-06",
+      "moduleTitle": "Production & Capstone",
+      "summary": "Week 30: Security, Reliability, Monitoring & Cost Optimization. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-06/week-30/notes/day01.md",
+          "lab": "./module-06/week-30/labs/day01.sh",
+          "assignment": "./module-06/week-30/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-06/week-30/notes/day02.md",
+          "lab": "./module-06/week-30/labs/day02.sh",
+          "assignment": "./module-06/week-30/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-06/week-30/notes/day03.md",
+          "lab": "./module-06/week-30/labs/day03.sh",
+          "assignment": "./module-06/week-30/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-06/week-30/notes/day04.md",
+          "lab": "./module-06/week-30/labs/day04.sh",
+          "assignment": "./module-06/week-30/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-06/week-30/notes/day05.md",
+          "lab": "./module-06/week-30/labs/day05.sh",
+          "assignment": "./module-06/week-30/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-06/week-30/notes/day06.md",
+          "lab": "./module-06/week-30/labs/day06.sh",
+          "assignment": "./module-06/week-30/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-06/week-30/notes/day07.md",
+          "lab": "./module-06/week-30/labs/day07.sh",
+          "assignment": "./module-06/week-30/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-06/week-30/assignments/week-30-assignment.md",
+      "assessment": "./module-06/week-30/assignments/week-30-assessment.md",
+      "project": "./module-06/week-30/projects/week-30-project.md"
+    },
+    {
+      "week": 31,
+      "title": "End-to-End Cloud Data & AI Platform Capstone",
+      "moduleId": "module-06",
+      "moduleTitle": "Production & Capstone",
+      "summary": "Week 31: End-to-End Cloud Data & AI Platform Capstone. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-06/week-31/notes/day01.md",
+          "lab": "./module-06/week-31/labs/day01.sh",
+          "assignment": "./module-06/week-31/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-06/week-31/notes/day02.md",
+          "lab": "./module-06/week-31/labs/day02.sh",
+          "assignment": "./module-06/week-31/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-06/week-31/notes/day03.md",
+          "lab": "./module-06/week-31/labs/day03.sh",
+          "assignment": "./module-06/week-31/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-06/week-31/notes/day04.md",
+          "lab": "./module-06/week-31/labs/day04.sh",
+          "assignment": "./module-06/week-31/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-06/week-31/notes/day05.md",
+          "lab": "./module-06/week-31/labs/day05.sh",
+          "assignment": "./module-06/week-31/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-06/week-31/notes/day06.md",
+          "lab": "./module-06/week-31/labs/day06.sh",
+          "assignment": "./module-06/week-31/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-06/week-31/notes/day07.md",
+          "lab": "./module-06/week-31/labs/day07.sh",
+          "assignment": "./module-06/week-31/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-06/week-31/assignments/week-31-assignment.md",
+      "assessment": "./module-06/week-31/assignments/week-31-assessment.md",
+      "project": "./module-06/week-31/projects/week-31-project.md"
+    },
+    {
+      "week": 32,
+      "title": "Capstone Hardening, Documentation & Portfolio Release",
+      "moduleId": "module-06",
+      "moduleTitle": "Production & Capstone",
+      "summary": "Week 32: Capstone Hardening, Documentation & Portfolio Release. Days 1\u20136 are for learning and practical work; Day 7 is for revision, assessment and the weekly assignment.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Day 01",
+          "notes": "./module-06/week-32/notes/day01.md",
+          "lab": "./module-06/week-32/labs/day01.sh",
+          "assignment": "./module-06/week-32/assignments/day01-task.md"
+        },
+        {
+          "day": 2,
+          "title": "Day 02",
+          "notes": "./module-06/week-32/notes/day02.md",
+          "lab": "./module-06/week-32/labs/day02.sh",
+          "assignment": "./module-06/week-32/assignments/day02-task.md"
+        },
+        {
+          "day": 3,
+          "title": "Day 03",
+          "notes": "./module-06/week-32/notes/day03.md",
+          "lab": "./module-06/week-32/labs/day03.sh",
+          "assignment": "./module-06/week-32/assignments/day03-task.md"
+        },
+        {
+          "day": 4,
+          "title": "Day 04",
+          "notes": "./module-06/week-32/notes/day04.md",
+          "lab": "./module-06/week-32/labs/day04.sh",
+          "assignment": "./module-06/week-32/assignments/day04-task.md"
+        },
+        {
+          "day": 5,
+          "title": "Day 05",
+          "notes": "./module-06/week-32/notes/day05.md",
+          "lab": "./module-06/week-32/labs/day05.sh",
+          "assignment": "./module-06/week-32/assignments/day05-task.md"
+        },
+        {
+          "day": 6,
+          "title": "Day 06",
+          "notes": "./module-06/week-32/notes/day06.md",
+          "lab": "./module-06/week-32/labs/day06.sh",
+          "assignment": "./module-06/week-32/assignments/day06-task.md"
+        },
+        {
+          "day": 7,
+          "title": "Day 07",
+          "notes": "./module-06/week-32/notes/day07.md",
+          "lab": "./module-06/week-32/labs/day07.sh",
+          "assignment": "./module-06/week-32/assignments/day07-task.md"
+        }
+      ],
+      "weeklyAssignment": "./module-06/week-32/assignments/week-32-assignment.md",
+      "assessment": "./module-06/week-32/assignments/week-32-assessment.md",
+      "project": "./module-06/week-32/projects/week-32-project.md"
+    }
+  ]
+}
