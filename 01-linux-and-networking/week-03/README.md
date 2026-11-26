@@ -44,67 +44,11 @@ fi
 
 ---
 
-## Day 04 — Loops (for, while, until) & File Automation
+## Day 04 — Loops (`for`, `while`, `until`) & File Automation
+* **`for` Loop (Lists, Ranges & Files):**
+  ```bash
+  for file in /var/log/*.log; do
+      [[ -f "$file" ]] || continue
+      gzip -c "$file" > "${file}.gz"
+  done
 
-for Loop (Lists, Ranges & Files):
-
-```bash
-for file in /var/log/*.log; do
-    [[ -f "$file" ]] || continue
-    gzip -c "$file" > "${file}.gz"
-done
-while Loop (Safe Line-by-Line Reading):
-
-Bash
-while IFS= read -r line; do
-    echo "Processing: $line"
-done < targets.txt
-until Loop (Polling Until Condition Becomes True):
-
-Bash
-until [[ -f "/tmp/job.done" ]]; do
-    sleep 2
-done
-Loop Controls: continue skips to the next iteration; break exits the loop immediately.
-
-## Day 05 — Functions, Exit Codes, Strict Error Handling & Debugging
-Functions & Local Scope:
-
-```bash
-log_info() {
-    local MSG="$1"
-    echo "[$(date +'%Y-%m-%d %H:%M:%S')] [INFO] $MSG"
-}
-Exit Codes ($?): 0 indicates success; 1–255 indicates an error. Use return inside functions and exit to terminate scripts.
-
-Strict Error Handling (set -euo pipefail):
-
-set -e — Exit immediately when any command fails.
-
-set -u — Treat unset variables as errors.
-
-set -o pipefail — Fail a pipeline if any command in the pipe fails.
-
-Cleanup Traps (trap):
-
-Bash
-trap 'rm -f /tmp/pipeline.lock' EXIT
-Debugging: Run bash -n script.sh to check syntax without executing, or bash -x script.sh to trace every expanded command.
-
-## Day 06 — Cron Jobs, Crontab Syntax & Logging
-
-Crontab Commands: crontab -l (list), crontab -e (edit), crontab -r (remove).
-
-5-Field Schedule Format:
-
-Plaintext
-* * * * *  /absolute/path/to/script.sh >> /var/log/job.log 2>&1
-│ │ │ │ │
-│ │ │ │ └── Day of week (0–6, Sunday = 0 or 7)
-│ │ │ └──── Month (1–12)
-│ │ └────── Day of month (1–31)
-│ └──────── Hour (0–23)
-└────────── Minute (0–59)
-Shorthand Macros: @reboot, @hourly, @daily, @weekly.
-
-Production Rules: Always use absolute paths (cron uses a minimal /usr/bin:/bin $PATH) and redirect both stdout and stderr (>> file.log 2>&1) for auditing.
