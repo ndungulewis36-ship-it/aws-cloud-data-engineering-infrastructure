@@ -51,4 +51,3 @@ fi
       [[ -f "$file" ]] || continue
       gzip -c "$file" > "${file}.gz"
   done
-
