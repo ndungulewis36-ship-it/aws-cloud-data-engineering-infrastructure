@@ -15,9 +15,25 @@
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
 
+  function defaultCompleted() {
+    const prefilled = {};
+    // Weeks 01-03 completed (7 days + 1 assignment per week = 24 milestones)
+    for (const w of [1, 2, 3]) {
+      for (let d = 1; d <= 7; d++) prefilled[`w${w}:day${d}`] = true;
+      prefilled[`w${w}:assignment`] = true;
+    }
+    return prefilled;
+  }
   function loadProgress() {
-    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { completed: {} }; }
-    catch { return { completed: {} }; }
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (saved && saved.completed && Object.keys(saved.completed).length > 0) {
+        return saved;
+      }
+      return { completed: defaultCompleted() };
+    } catch {
+      return { completed: defaultCompleted() };
+    }
   }
   function saveProgress() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
