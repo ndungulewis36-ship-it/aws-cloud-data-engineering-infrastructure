@@ -223,12 +223,12 @@
           "title": "Day 07",
           "notes": "./01-linux-and-networking/week-03/README.md",
           "lab": "./01-linux-and-networking/week-03/scripts/day06-scheduled-health-logger.sh",
-          "assignment": "./01-linux-and-networking/week-03/README.md"
+          "assignment": "./01-linux-and-networking/week-03/assignments/assignment-bash-automation-notes.md"
         }
       ],
-      "weeklyAssignment": "./01-linux-and-networking/week-03/scripts/day06-scheduled-health-logger.sh",
+      "weeklyAssignment": "./01-linux-and-networking/week-03/assignments/assignment-bash-automation-notes.md",
       "assessment": "./01-linux-and-networking/week-03/labs/day06-cron-lab.sh",
-      "project": "./01-linux-and-networking/week-03/README.md"
+      "project": "./01-linux-and-networking/z-projects/major-project-01-linux-admin-toolkit/README.md"
     },
     {
       "week": 4,
