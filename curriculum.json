@@ -104,9 +104,9 @@
           "assignment": "./01-linux-and-networking/week-01/assignments/bandit-walkthrough.md"
         }
       ],
-      "weeklyAssignment": "./module-01/week-01/assignments/week-01-assignment.md",
-      "assessment": "./module-01/week-01/assignments/week-01-assessment.md",
-      "project": "./module-01/week-01/projects/week-01-project.md"
+      "weeklyAssignment": "./01-linux-and-networking/week-01/assignments/week01-assignment-commands.md",
+      "assessment": "./01-linux-and-networking/week-01/assignments/bandit-walkthrough.md",
+      "project": "./01-linux-and-networking/week-01/README.md"
     },
     {
       "week": 2,
@@ -165,9 +165,9 @@
           "assignment": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh"
         }
       ],
-      "weeklyAssignment": "./module-01/week-02/assignments/week-02-assignment.md",
-      "assessment": "./module-01/week-02/assignments/week-02-assessment.md",
-      "project": "./module-01/week-02/projects/week-02-project.md"
+      "weeklyAssignment": "./01-linux-and-networking/week-02/assignments/week02-assignment.sh",
+      "assessment": "./01-linux-and-networking/week-02/labs/day-04-process-lab.md",
+      "project": "./01-linux-and-networking/week-02/README.md"
     },
     {
       "week": 3,
@@ -226,9 +226,9 @@
           "assignment": "./01-linux-and-networking/week-03/README.md"
         }
       ],
-      "weeklyAssignment": "./module-01/week-03/assignments/week-03-assignment.md",
-      "assessment": "./module-01/week-03/assignments/week-03-assessment.md",
-      "project": "./module-01/week-03/projects/week-03-project.md"
+      "weeklyAssignment": "./01-linux-and-networking/week-03/scripts/day06-scheduled-health-logger.sh",
+      "assessment": "./01-linux-and-networking/week-03/labs/day06-cron-lab.sh",
+      "project": "./01-linux-and-networking/week-03/README.md"
     },
     {
       "week": 4,
