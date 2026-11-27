@@ -1,0 +1,35 @@
+=== RESOURCE HEALTH SNAPSHOT (2026-11-27 22:38:09 UTC) ===
+
+[CPU LOAD]
+ 01:38:09 up  6:38,  1 user,  load average: 0.07, 0.45, 0.38
+CPU(s):                                  4
+Model name:                              Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz
+NUMA node0 CPU(s):                       0-3
+
+[MEMORY USAGE]
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       1.2Gi       4.4Mi       1.5Gi       2.6Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[DISK USAGE]
+Filesystem     Type           Size  Used Avail Use% Mounted on
+none           overlay        1.9G     0  1.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb       ext4            97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+drivers        9p             173G   86G   87G  50% /usr/lib/wsl/drivers
+/dev/sdd       ext4          1007G  2.9G  953G   1% /
+none           overlay        1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs         rootfs         1.9G  3.4M  1.9G   1% /init
+none           overlay        1.9G   80K  1.9G   1% /mnt/wslg/versions.txt
+none           overlay        1.9G   80K  1.9G   1% /mnt/wslg/doc
+C:\            9p             173G   86G   87G  50% /mnt/c
+D:\            9p             707M  609M   99M  87% /mnt/d
+snapfuse       fuse.snapfuse   75M   75M     0 100% /snap/core22/3129
+snapfuse       fuse.snapfuse   33M   33M     0 100% /snap/snapd/28332
+
+[TOP 5 CPU PROCESSES]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ndung      62621 50.0  0.1   8300  4436 pts/5    R+   01:38   0:00 ps aux --sort=-%cpu
+ndung        589  3.5  5.4 10220924 214264 pts/0 Sl+  Nov27  13:54 /home/ndung/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node --dns-result-order=ipv4first /home/ndung/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+ndung      62607  1.6  0.0   4900  2292 pts/5    S+   01:38   0:00 bash ./scripts/admin_toolkit.sh --health-check
+ndung      62602  1.5  0.0   4900  3680 pts/5    S+   01:38   0:00 bash ./scripts/admin_toolkit.sh --health-check
+ndung        414  0.5  3.0 1755900 119328 pts/0  Sl+  Nov27   2:14 /home/ndung/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node /home/ndung/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4060144037-370523153-574687152-1922933306 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
