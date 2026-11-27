@@ -1,0 +1,20 @@
+==========================================
+ LOG ANALYSIS REPORT: /var/log/dpkg.log
+ Generated: Sat Nov 28 01:00:14 EAT 2026
+==========================================
+Total Lines Scanned: 7224
+ERROR occurrences:   39
+WARN occurrences:    0
+FAIL occurrences:    0
+
+--- LAST 10 ERROR/FAIL ENTRIES ---
+2026-09-08 00:14:07 status unpacked libgpg-error-l10n:all 1.47-3build2.1
+2026-09-08 00:14:07 status half-configured libgpg-error-l10n:all 1.47-3build2.1
+2026-09-08 00:14:07 status installed libgpg-error-l10n:all 1.47-3build2.1
+2026-09-08 00:14:32 install liberror-perl:all <none> 0.17029-2
+2026-09-08 00:14:32 status half-installed liberror-perl:all 0.17029-2
+2026-09-08 00:14:32 status unpacked liberror-perl:all 0.17029-2
+2026-09-08 00:15:02 configure liberror-perl:all 0.17029-2 <none>
+2026-09-08 00:15:02 status unpacked liberror-perl:all 0.17029-2
+2026-09-08 00:15:02 status half-configured liberror-perl:all 0.17029-2
+2026-09-08 00:15:02 status installed liberror-perl:all 0.17029-2
